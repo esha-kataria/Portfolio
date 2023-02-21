@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 2;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto;
+}
+
+
+
+@media screen and (max-width: 1183px){
+    #menu{
+        transition: all 0.5s ease-in;
+        transform: translateX(-432px);
+    }
+    #menu.active{
+        transform: translateX(0px);
+    }
+}
+
+.mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 3;
+    border: 0;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    background-color: #149ddd;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.f-size{
+    font-size: 70px !important;
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/bgblack1.png), url(../images/bg2.jpg) top center;
+    background-size: cover;
+}
+
+main{
+    margin-left: 260px;
+}
+
+.btnblue{
+    background-color: #149dddbf !important;
+}
+
+.txtblue{
+    color: #1853a3 !important;
+}
+
+.zoomin1:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition:all 1s;
+    object-fit: cover;
+}
+
+section{
+    padding: 60px;
+    overflow: hidden;
+}
+
+.navbar .icones:hover{
+    color: #149ddd !important;
+
+}
+
+.bluecolor{
+    color: #173b6c !important;
+}
+
+.nav-link{
+    color: #fff !important;
+}
+
+.navbar-brand{
+    color: #fff !important;
+}
+
+.p-100{
+    padding-top: 100px;
+}
+
+ul li{
+    list-style: none;
+}
+
+@media screen and (max-width: 1199px){
+.main {
+    margin-left: 0;
+}
+}
+
+/* skill */
+
+.section-bg {
+    background: #f5f8fd;
+}
+
+.section-title {
+    padding-bottom: 30px;
+}
+
+.contact .info {
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+}
+
+.contact .info i {
+    font-size: 20px;
+    color: #149ddd;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #dff3fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.info ul li{
+    display: inline-block;
+}
